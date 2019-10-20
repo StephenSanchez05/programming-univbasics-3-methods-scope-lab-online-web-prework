@@ -1,3 +1,5 @@
+$phrase = "Do A Barrel Roll!"
+
 def mario
   phrase = "It's-a me, Mario!"
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
@@ -15,5 +17,5 @@ def link
 end
 
 def any_phrase
-  puts "Do A Barrel Roll!"
+  puts #{$phrase}
 end
